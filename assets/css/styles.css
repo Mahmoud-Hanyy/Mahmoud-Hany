@@ -82,7 +82,7 @@ img {
   border: 2px solid var(--first-color);
   border-radius: 8px;
   font-size: 19px;
-  color: var(--second-color);
+  color: white;
   text-decoration: none;
   font-weight: 600;
   letter-spacing: 1px;
@@ -108,7 +108,7 @@ img {
   height: 100%;
   z-index: -1;
   transition: .5s;
-  background: #081b29;   
+  background: white;   
 }
 .btn-box a:hover::before{
   width: 100%;
@@ -430,24 +430,19 @@ img {
   .home__img {
     width: 450px;
   }
-  #contact .contact-item {
-    width: 40%;
-    height: 350px;
-    text-align: center;
-    margin: 0 auto ;
-    border-radius: 1px;
-    padding: 20px;
-    flex-direction: column;
-    box-shadow: 0px 0px 18px 0 var(--first-color);
-    transition: 0.3s ease box-shadow;
+  .contact_section a {
+  text-decoration: underline;
+  color: var(--second-color);
+  justify-content: center;
+  display: flex;
+  font-weight: 600;
+  font-size: larger;
+  margin-bottom: 40px;
   }
-  #contact .contact-item:hover {
-    box-shadow: 0px 0px 5px 0 var(--second-color);
+  .contact_section img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
   }
-  #contact .icon {
-    margin-left: 30%;
-    scale: 2;
-    max-width: max-content;
-    height: 100px;
-}
 }
